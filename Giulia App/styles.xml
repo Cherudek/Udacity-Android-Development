@@ -36,15 +36,24 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_below">@+id/textView3</item>
         <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerInParent">true</item>
 
     </style>
 
-    <style name="footer">
+    <style name="contacts">
 
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#D9FFFFFF</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="layout_height">wrap_content</item>
+        <item name="lines">3</item>
+        <item name="android:maxLines">3</item>
+        <item name="layout_alignParentBottom">true</item>
+        <item name="gravity">center</item>
+        <item name="layout_centerInParent">true</item>
+        <item name="layout_marginBottom">20dp</item>
 
 
 
