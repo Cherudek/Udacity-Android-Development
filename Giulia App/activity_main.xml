@@ -16,27 +16,26 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/giulia_s_mold_maker"
+        android:text="@string/title"
         style="@style/MainHeader"
         android:id="@+id/textView3" />
 
 
     <TextView
         style="@style/description"
-        android:text="@string/giulia_scati_is_an_italian_mold_maker_and_sculptress_currently_living_in_london_the_passion_for_this_craft_leads_me_to_explore_the_best_practices_in_the_field_and_to_share_them_with_like_minded_people"
+        android:text="@string/description"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="39dp"/>
 
     <TextView
-        style="@style/footer"
+        android:text="@string/contacts"
+        style="@style/contacts"
+        android:id="@+id/textView"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-
         android:lines="3"
         android:maxLines="3"
-        android:text="giuliascati@hotmail.com 00447858790131 www.giuliascati.it"
-        android:id="@+id/textView"
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:layout_centerInParent="true"
